@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<meta name="keywords" content=""/>
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
 </head>
+
 <body>
+    <!--    The header  -->
+    <header>
+        <h1 id="header">Football Quiz</h1>
+    </header>
 
-    <header id="header">The Quiz Game</header>
-
-    <div class = "game-area">
-        <div id = "question-box">
-            <div id = "questions">Questions</div>
-            <div id = "answer-box" class = "button-grid">
-                <button class = "btn">1</button>
-                <button class = "btn">2</button>
-                <button class = "btn">3</button>
-                <button class = "btn">4</button>
+    <!-- The game area with questions and buttons -->
+    <div class="game-area">
+        <div id="question-box" class="hide">
+            <h2 id="questions">Question:</h2>
+            <div id="answer-box" class="button-grid">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">4</button>
             </div>
         </div>
-        <div class ="start-btn">
-            <button id = "start-button">Start</button>     
-            <button id= "next">Next</button>
+        <div class="start-btn">
+            <button id="start" class="btn">Start</button>
+            <button id="next" class="btn hide">Next</button>
         </div>
     </div>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

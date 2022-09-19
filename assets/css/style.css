@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+/* The header */
 #header {
     font-size: 400%;
     text-align: center;
@@ -6,14 +11,53 @@
     text-decoration: underline;
 }
 
-
+/* Game area / container  */
 .game-area {
     width: 75%;
     height: 500px;
     margin: auto;
-    background-color: #1e3aff;
+    background-color: black;
     border: 6px solid #0ddb3a;
     border-radius: 20px;
     color: #FFFFFF;
-    font-weight: bold;
+}
+
+#questions {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.button-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.btn {
+    width: 50%;
+    height: 40px;
+    background-color: #0ddb3a;
+    color: black;
+    font-size: large;
+    margin: auto;
+}
+
+#next {
+    width: 30%;
+}
+
+/* Hide all buttons except for "Start" button */
+.start-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+#start {
+    width: 30%;
+    height: 100px;
+    margin-top: 15%;
+    font-size: 60px;
+}
+
+.hide {
+    display: none;
 }
