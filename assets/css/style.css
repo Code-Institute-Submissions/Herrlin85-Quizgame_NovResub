@@ -1,0 +1,19 @@
+#header {
+    font-size: 400%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+.game-area {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    background-color: #1e3aff;
+    border: 6px solid #0ddb3a;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
