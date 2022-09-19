@@ -28,8 +28,8 @@
 }
 
 .button-grid {
-  display: grid;
-  gap: 10px;
+    display: grid;
+    gap: 10px;
 }
 
 .btn {
