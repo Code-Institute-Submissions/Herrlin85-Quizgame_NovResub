@@ -16,23 +16,30 @@
     <header>
         <h1 id="header">Football Quiz</h1>
     </header>
+    
 
     <!-- The game area with questions and buttons -->
     <div class="game-area">
         <div id="question-box" class="hide">
-            <h2 id="questions">Question:</h2>
-            <div id="answer-box" class="button-grid">
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">4</button>
+            <h2 id="question">Question</h2>
+            F<div class="button-grid">
+                <button id="1" class="btn" onclick="checkAnswer('1')">1</button>
+                <button id="2" class="btn" onclick="checkAnswer('2')">2</button>
+                <button id="3" class="btn" onclick="checkAnswer('3')">3</button>
+                <button id="4" class="btn" onclick="checkAnswer('4')">4</button>
             </div>
         </div>
         <div class="start-btn">
-            <button id="start" class="btn">Start</button>
-            <button id="next" class="btn hide">Next</button>
+            <button id="start" class="btn">Start the quiz</button>
+        </div>
+        
+        <!--score area -->
+        <div id="score-area" class= "hide">
+            <p class="score">Correct Answers <span id="correct">0</span></p>
+            <p class="score">Incorrect Answers <span id="incorrect">0</span></p>
         </div>
     </div>
+
 
     <script src="assets/js/script.js"></script>
 </body>

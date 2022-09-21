@@ -22,11 +22,12 @@
     color: #FFFFFF;
 }
 
-#questions {
+#question {
     text-align: center;
     font-size: xx-large;
 }
 
+/* Button layout */
 .button-grid {
     display: grid;
     gap: 10px;
@@ -41,22 +42,19 @@
     margin: auto;
 }
 
-#next {
-    width: 30%;
-}
-
-/* Hide all buttons except for "Start" button */
 .start-btn {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+
 }
 
 #start {
-    width: 30%;
-    height: 100px;
-    margin-top: 15%;
-    font-size: 60px;
+    background-color: blue;
+    color: white;
+    margin-top: 20vh;
 }
+
+/* Hide all buttons except for "Start" button */
+
 
 .hide {
     display: none;
