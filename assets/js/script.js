@@ -20,6 +20,7 @@ function startQuiz() {
     intro.classList.add('hide');
     questionBox.classList.remove('hide');
     showQuestion();
+    checkAnswer();
 
 }
 
