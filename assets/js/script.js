@@ -3,6 +3,7 @@ let startBtn = document.getElementById('start');
 let questionBox = document.getElementById('question-box');
 let scoreArea = document.getElementById('score-area');
 let questions = document.getElementById('question');
+let intro = document.getElementById('intro');
 let option1 = document.getElementById('1');
 let option2 = document.getElementById('2');
 let option3 = document.getElementById('3');
@@ -16,8 +17,8 @@ startBtn.addEventListener('click', startQuiz);
 function startQuiz() {
     console.log('started');
     startBtn.classList.add('hide');
+    intro.classList.add('hide');
     questionBox.classList.remove('hide');
-    scoreArea.classList.remove('hide');
     showQuestion();
 
 }
@@ -96,15 +97,23 @@ function checkAnswer(answer) {
     if (questionIndex < newQuestion) {
         questionIndex++;
         showQuestion();
+}     else {
+    questionBox.classList.add('hide');
+    scoreArea.classList.remove('hide');
+    document.body.style.background = "white";
+    
 }
+
 }
+
+// if corrrect, add +1 too correct answers
 function isCorrect() {
     newScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++newScore;
     document.body.style.background = "green";
     
 }
-
+// if incorrect, add +1 too incorrect answers
 function isNotCorrect() {
     newScore =  parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++newScore;

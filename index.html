@@ -20,9 +20,10 @@
 
     <!-- The game area with questions and buttons -->
     <div class="game-area">
+        <p id = 'intro'>Test your knowledge about football with these 5 quick questions!</p>
         <div id="question-box" class="hide">
             <h2 id="question">Question</h2>
-            F<div class="button-grid">
+            <div class="button-grid">
                 <button id="1" class="btn" onclick="checkAnswer('1')">1</button>
                 <button id="2" class="btn" onclick="checkAnswer('2')">2</button>
                 <button id="3" class="btn" onclick="checkAnswer('3')">3</button>
@@ -35,8 +36,9 @@
         
         <!--score area -->
         <div id="score-area" class= "hide">
-            <p class="score">Correct Answers <span id="correct">0</span></p>
-            <p class="score">Incorrect Answers <span id="incorrect">0</span></p>
+            <p id="correctP" class="score">Correct Answers: <span id="correct">0</span></p>
+            <p id="incorrectP" class="score">Incorrect Answers: <span id="incorrect">0</span></p>
+            <a href="index.html">Play Again!</a>
         </div>
     </div>
 

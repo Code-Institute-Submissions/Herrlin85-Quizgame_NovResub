@@ -22,10 +22,14 @@
     color: #FFFFFF;
 }
 
-#question {
+#question,
+#intro {
     text-align: center;
-    font-size: xx-large;
+    font-size: 25px;
+    margin-bottom: 5vh;
 }
+
+
 
 /* Button layout */
 .button-grid {
@@ -34,11 +38,11 @@
 }
 
 .btn {
-    width: 50%;
-    height: 40px;
+    width: 40%;
+    height: 60px;
     background-color: #0ddb3a;
     color: black;
-    font-size: large;
+    font-size: 15px;
     margin: auto;
 }
 
@@ -50,12 +54,54 @@
 #start {
     background-color: blue;
     color: white;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
-/* Hide all buttons except for "Start" button */
-
+/* Hide */
 
 .hide {
     display: none;
+}
+
+/* Score area */
+
+#score-area {
+    text-align: center;
+    font-size: x-large;
+}
+
+#correctP {
+    color: #00ff00;
+    margin-top: 10vh;
+    font-size: xxx-large;
+}
+
+#incorrectP {
+    color: red;
+    font-size: xxx-large;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 400px) {
+    
+    
+#question {
+    font-size: 15px;
+}
+#correctP {
+    margin-top: 5vh;
+    font-size: 40px;
+}
+
+#incorrectP {
+    font-size: 40px;
+}
 }
