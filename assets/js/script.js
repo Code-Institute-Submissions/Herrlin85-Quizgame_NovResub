@@ -21,6 +21,7 @@ function startQuiz() {
     questionBox.classList.remove('hide');
     showQuestion();
     checkAnswer();
+    document.body.style.background = "white";
 
 }
 
@@ -119,5 +120,4 @@ function isNotCorrect() {
     newScore =  parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++newScore;
     document.body.style.background = "red";
-    
 }
