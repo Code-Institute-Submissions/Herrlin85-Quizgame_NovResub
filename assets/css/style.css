@@ -37,7 +37,8 @@
     gap: 10px;
 }
 
-.btn {
+.btn,
+.answer {
     width: 40%;
     height: 60px;
     background-color: #0ddb3a;

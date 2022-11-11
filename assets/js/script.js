@@ -3,6 +3,7 @@ let startBtn = document.getElementById('start');
 let questionBox = document.getElementById('question-box');
 let scoreArea = document.getElementById('score-area');
 let questions = document.getElementById('question');
+let answers = document.getElementsByClassName('answer');
 let intro = document.getElementById('intro');
 let option1 = document.getElementById('1');
 let option2 = document.getElementById('2');
@@ -21,8 +22,7 @@ function startQuiz() {
     questionBox.classList.remove('hide');
     showQuestion();
     checkAnswer();
-    document.body.style.background = "white";
-
+    document.body.style.background = "white"
 }
 
 //  Create questions
@@ -73,11 +73,13 @@ let myQuestions = [
 let questionIndex = 0;
 let newScore = 0;
 let newQuestion = myQuestions.length - 1;
+let randomQuestions = Math.floor(Math.random() * myQuestions);
+
 
 
 // Code to show questions and answers
 function showQuestion() {
-    let q = myQuestions[questionIndex];
+    let q = randomQuestions[questionIndex];
 
     questions.innerHTML = q.question;
     option1.innerHTML = q.option1;
@@ -102,7 +104,6 @@ function checkAnswer(answer) {
 }     else {
     questionBox.classList.add('hide');
     scoreArea.classList.remove('hide');
-    document.body.style.background = "white";
     
 }
 
