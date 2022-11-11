@@ -3,13 +3,13 @@ let startBtn = document.getElementById('start');
 let questionBox = document.getElementById('question-box');
 let scoreArea = document.getElementById('score-area');
 let questions = document.getElementById('question');
-let answers = document.getElementsByClassName('answer');
 let intro = document.getElementById('intro');
 let option1 = document.getElementById('1');
 let option2 = document.getElementById('2');
 let option3 = document.getElementById('3');
 let option4 = document.getElementById('4');
 
+let randomQuestion;
 
 
 startBtn.addEventListener('click', startQuiz);
@@ -20,8 +20,9 @@ function startQuiz() {
     startBtn.classList.add('hide');
     intro.classList.add('hide');
     questionBox.classList.remove('hide');
+    // Makes the questions random
+    randomQuestion = myQuestions.sort(() => Math.random() - 0.5);
     showQuestion();
-    checkAnswer();
     document.body.style.background = "white"
 }
 
@@ -73,13 +74,12 @@ let myQuestions = [
 let questionIndex = 0;
 let newScore = 0;
 let newQuestion = myQuestions.length - 1;
-let randomQuestions = Math.floor(Math.random() * myQuestions);
 
 
 
 // Code to show questions and answers
 function showQuestion() {
-    let q = randomQuestions[questionIndex];
+    let q = myQuestions[questionIndex];
 
     questions.innerHTML = q.question;
     option1.innerHTML = q.option1;
