@@ -57,7 +57,7 @@ let myQuestions = [
         question: 'Which club did Zlatan Ibrahimovic signed for when leaving Malmö FF?',
         option1: 'Inter',
         option2: 'Juventus',
-        option3: 'Sweden',
+        option3: 'Fc Bacelona',
         option4: 'Ajax',
         correctAnswer: '4',
     },
@@ -68,6 +68,31 @@ let myQuestions = [
         option3: 'Leeds United',
         option4: 'Marseille',
         correctAnswer: '4',
+    },
+    {
+        question: 'Which of the following is not a football team in London?',
+        option1: 'Tottenham Hotspur FC',
+        option2: 'Everton FC',
+        option3: 'Arsenal FC',
+        option4: 'Chelsea FC',
+        correctAnswer: '2',
+
+    },
+    {
+        question: 'Which of the following is not a football team in London?',
+        option1: 'Tottenham Hotspur FC',
+        option2: 'Everton FC',
+        option3: 'Arsenal FC',
+        option4: 'Chelsea FC',
+        correctAnswer: '2',
+    },
+    {
+        question: 'Which newly founded club did David Beckham became president over in 2018?',
+        option1: 'LA Galaxy',
+        option2: 'DC United',
+        option3: 'Inter Miami CF',
+        option4: 'Los Angeles FC',
+        correctAnswer: '2',
     },
 ];
 
