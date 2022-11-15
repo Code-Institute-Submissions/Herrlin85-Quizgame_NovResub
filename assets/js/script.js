@@ -155,13 +155,13 @@ function checkAnswer(answer) {
 function isCorrect() {
     newScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++newScore;
-    document.querySelector('.game-area').style.backgroundColor = '#00ff00';
+    document.querySelector('.game-area').style.backgroundColor = 'rgb(0 255 0 / 60%)';
     document.querySelector('#question').style.color = 'black';
 }
 // if incorrect, add +1 too incorrect answers
 function isNotCorrect() {
     newScore =  parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++newScore;
-    document.querySelector('.game-area').style.backgroundColor = '#ff1919';
+    document.querySelector('.game-area').style.backgroundColor = 'rgb(255 0 0 / 75%)';
     document.querySelector('#question').style.color = 'black';
 }
