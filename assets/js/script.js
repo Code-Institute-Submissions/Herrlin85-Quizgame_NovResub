@@ -78,7 +78,7 @@ let myQuestions = [
 
     },
     {
-        question: 'Which european contry was first to qualify for WC in Qatar 2022?',
+        question: 'Which european country was first to qualify for WC in Qatar 2022?',
         option1: 'Denmark',
         option2: 'Belgium',
         option3: 'Germany',
