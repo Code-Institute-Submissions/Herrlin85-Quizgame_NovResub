@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+body {
+    /* Photo taken from https://www.freepik.com/ */
+    background: url('../images/Stadium.webp') no-repeat center center;
+    background-size: cover;
+    clear: both;
+}
+
 /* The header */
 #header {
     font-size: 400%;
