@@ -145,6 +145,7 @@ function checkAnswer(answer) {
 }     else {
     questionBox.classList.add('hide');
     scoreArea.classList.remove('hide');
+    document.querySelector('.game-area').style.backgroundColor = 'black';
     
 }
 
@@ -154,12 +155,13 @@ function checkAnswer(answer) {
 function isCorrect() {
     newScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++newScore;
-    document.body.style.background = "green";
-    
+    document.querySelector('.game-area').style.backgroundColor = '#00ff00';
+    document.querySelector('#question').style.color = 'black';
 }
 // if incorrect, add +1 too incorrect answers
 function isNotCorrect() {
     newScore =  parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++newScore;
-    document.body.style.background = "red";
+    document.querySelector('.game-area').style.backgroundColor = '#ff1919';
+    document.querySelector('#question').style.color = 'black';
 }

@@ -11,6 +11,7 @@ body {
 
 /* The header */
 #header {
+    color: #00ff00;
     font-size: 400%;
     text-align: center;
     padding-top: 30px;
@@ -31,6 +32,8 @@ body {
 
 #question,
 #intro {
+    padding-top: 20px;
+    color:#0ddb3a;
     text-align: center;
     font-size: 25px;
     margin-bottom: 5vh;
@@ -73,6 +76,7 @@ body {
 /* Score area */
 
 #score-area {
+    background-color: black;
     text-align: center;
     font-size: x-large;
 }
