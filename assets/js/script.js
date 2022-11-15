@@ -23,7 +23,6 @@ function startQuiz() {
     // Makes the questions random
     randomQuestion = myQuestions.sort(() => Math.random() - 0.5);
     showQuestion();
-    document.body.style.background = "white"
 }
 
 //  Create questions
@@ -79,12 +78,12 @@ let myQuestions = [
 
     },
     {
-        question: 'Which of the following is not a football team in London?',
-        option1: 'Tottenham Hotspur FC',
-        option2: 'Everton FC',
-        option3: 'Arsenal FC',
-        option4: 'Chelsea FC',
-        correctAnswer: '2',
+        question: 'Which european contry was first to qualify for WC in Qatar 2022?',
+        option1: 'Denmark',
+        option2: 'Belgium',
+        option3: 'Germany',
+        option4: 'Spain',
+        correctAnswer: '3',
     },
     {
         question: 'Which newly founded club did David Beckham became president over in 2018?',
@@ -92,8 +91,25 @@ let myQuestions = [
         option2: 'DC United',
         option3: 'Inter Miami CF',
         option4: 'Los Angeles FC',
+        correctAnswer: '3',
+    },
+    {
+        question: 'How many people watched World Cup 2018 in total?',
+        option1: '1 billion',
+        option2: '3.5 billions',
+        option3: '5.1 billions',
+        option4: '2.5 billions',
         correctAnswer: '2',
     },
+    {
+        question: 'Who has the record of most goals in WC in total? (16 goals)',
+        option1: 'Ronaldo, BRA',
+        option2: 'Christiano Ronaldo, POR',
+        option3: 'Diego Maradona, ARG',
+        option4: 'Miroslav Klose, GER',
+        correctAnswer: '4',
+    },
+    
 ];
 
 let questionIndex = 0;
