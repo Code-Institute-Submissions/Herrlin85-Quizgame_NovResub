@@ -42,7 +42,7 @@ body {
 }
 
 #intro {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #outro {
@@ -121,6 +121,13 @@ div>a {
 
     #header {
         font-size: 30px;
+    }
+
+    div>a {
+        background-color: blue;
+        padding: 0;
+        color: white;
+        text-transform: uppercase;
     }
 
     #question {
