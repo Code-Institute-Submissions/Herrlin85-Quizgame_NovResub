@@ -31,7 +31,7 @@ body {
     color: #FFFFFF;
 }
 
-/* Style for question and intro text */
+/* Style for question and intro/outro text */
 #question,
 #intro {
     padding-top: 20px;
@@ -45,7 +45,13 @@ body {
     font-size: 40px;
 }
 
-
+#outro {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 100px 0 60px;
+    color: black;
+    text-align: center;
+}
 
 /* Button layout */
 .button-grid {
@@ -76,7 +82,6 @@ body {
 #score {
     background-color: blue;
     color: white;
-    margin-top: 30vh;
 }
 
 /* Hide */

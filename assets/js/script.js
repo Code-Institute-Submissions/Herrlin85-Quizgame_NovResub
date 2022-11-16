@@ -5,13 +5,17 @@ let questionBox = document.getElementById('question-box');
 let scoreArea = document.getElementById('score-area');
 let questions = document.getElementById('question');
 let intro = document.getElementById('intro');
+let outro = document.getElementById('outro');
 let option1 = document.getElementById('1');
 let option2 = document.getElementById('2');
 let option3 = document.getElementById('3');
 let option4 = document.getElementById('4');
 
 let randomQuestion;
+
+// Hide scorebutton and text
 scoreBtn.classList.add('hide');
+outro.classList.add('hide');
 
 // Eventlistener for start and score buttons
 startBtn.addEventListener('click', startQuiz);
@@ -148,8 +152,10 @@ function checkAnswer(answer) {
         questionIndex++;
         showQuestion();
     } else {
+        // hide questions and answers and show scorebutton and text
         questionBox.classList.add('hide');
         scoreBtn.classList.remove('hide');
+        outro.classList.remove('hide');
     }
 }
 
@@ -167,10 +173,11 @@ function isNotCorrect() {
     document.querySelector('.game-area').style.backgroundColor = 'rgb(255 0 0 / 75%)';
     document.querySelector('#question').style.color = 'black';
 }
-
+// Show score function to show score area
 function showScore() {
     document.querySelector('.game-area').style.backgroundColor = 'rgb(0 0 0 / 80%)';
     scoreArea.classList.remove('hide');
     scoreBtn.classList.add('hide');
+    outro.classList.add('hide');
 
 }
