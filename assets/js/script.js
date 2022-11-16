@@ -11,7 +11,7 @@ let option4 = document.getElementById('4');
 
 let randomQuestion;
 
-
+// Eventlistener for startbutton to start the quiz
 startBtn.addEventListener('click', startQuiz);
 
 // Start quiz function. Hide elements for visual effect
@@ -25,7 +25,7 @@ function startQuiz() {
     showQuestion();
 }
 
-//  Create questions
+//  Create question array
 let myQuestions = [
 
     {
@@ -109,7 +109,7 @@ let myQuestions = [
         option4: 'Miroslav Klose, GER',
         correctAnswer: '4',
     },
-    
+
 ];
 
 let questionIndex = 0;
@@ -139,28 +139,28 @@ function checkAnswer(answer) {
     } else {
         isNotCorrect();
     }
+    // Code for next question, the score will show up after last question
     if (questionIndex < newQuestion) {
         questionIndex++;
         showQuestion();
-}     else {
-    questionBox.classList.add('hide');
-    scoreArea.classList.remove('hide');
-    document.querySelector('.game-area').style.backgroundColor = 'black';
-    
+    } else {
+        questionBox.classList.add('hide');
+        scoreArea.classList.remove('hide');
+        document.querySelector('.game-area').style.backgroundColor = 'black';
+
+    }
 }
 
-}
-
-// if corrrect, add +1 too correct answers
+// if corrrect, add +1 too correct answers and change background color on game area and font color
 function isCorrect() {
     newScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++newScore;
     document.querySelector('.game-area').style.backgroundColor = 'rgb(0 255 0 / 60%)';
     document.querySelector('#question').style.color = 'black';
 }
-// if incorrect, add +1 too incorrect answers
+// if incorrect, add +1 too incorrect answers and change background color on game area and font color
 function isNotCorrect() {
-    newScore =  parseInt(document.getElementById('incorrect').innerText);
+    newScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++newScore;
     document.querySelector('.game-area').style.backgroundColor = 'rgb(255 0 0 / 75%)';
     document.querySelector('#question').style.color = 'black';

@@ -1,7 +1,7 @@
 # Football quiz game
 [Live link to Football Quiz](https://herrlin85.github.io/Quizgame/)
 
-Football Quiz Game is a interactive quiz about the users knowledge in football
+Football Quiz Game is a interactive quiz about the users knowledge in football. The quiz contains 10 questions about everything from individual players to teams across europe and even national teams.
 
 ![responsive design image](assets/images/Responsive.png)
 
