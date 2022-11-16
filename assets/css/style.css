@@ -5,6 +5,7 @@
 body {
     /* Photo taken from https://www.freepik.com/ */
     background: url('../images/Stadium.webp') no-repeat center center;
+    height: 1200px;
     background-size: cover;
     clear: both;
 }
