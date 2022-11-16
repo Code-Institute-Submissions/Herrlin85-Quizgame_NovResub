@@ -1,5 +1,6 @@
 // Get the elements for start button and question box
 let startBtn = document.getElementById('start');
+let scoreBtn = document.getElementById('score');
 let questionBox = document.getElementById('question-box');
 let scoreArea = document.getElementById('score-area');
 let questions = document.getElementById('question');
@@ -10,9 +11,12 @@ let option3 = document.getElementById('3');
 let option4 = document.getElementById('4');
 
 let randomQuestion;
+scoreBtn.classList.add('hide');
 
-// Eventlistener for startbutton to start the quiz
+// Eventlistener for start and score buttons
 startBtn.addEventListener('click', startQuiz);
+scoreBtn.addEventListener('click', showScore)
+
 
 // Start quiz function. Hide elements for visual effect
 function startQuiz() {
@@ -145,9 +149,7 @@ function checkAnswer(answer) {
         showQuestion();
     } else {
         questionBox.classList.add('hide');
-        scoreArea.classList.remove('hide');
-        document.querySelector('.game-area').style.backgroundColor = 'black';
-
+        scoreBtn.classList.remove('hide');
     }
 }
 
@@ -164,4 +166,11 @@ function isNotCorrect() {
     document.getElementById('incorrect').innerText = ++newScore;
     document.querySelector('.game-area').style.backgroundColor = 'rgb(255 0 0 / 75%)';
     document.querySelector('#question').style.color = 'black';
+}
+
+function showScore() {
+    document.querySelector('.game-area').style.backgroundColor = 'rgb(0 0 0 / 80%)';
+    scoreArea.classList.remove('hide');
+    scoreBtn.classList.add('hide');
+
 }
