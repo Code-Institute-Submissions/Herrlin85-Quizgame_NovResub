@@ -97,7 +97,7 @@ body {
     font-size: xxx-large;
 }
 
-a {
+div > a {
     background-color: blue;
     color: white;
     padding: 1em 1.5em;
