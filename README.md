@@ -28,7 +28,12 @@ Football Quiz Game is a interactive quiz about the users knowledge in football. 
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
     * [How to Fork](#How-to-Fork)
-    * [How to Clone](#How-to-Clone
+    * [How to Clone](#How-to-Clone)
+* [Credits](Credits)
+  * [Code Used](Code-Used)
+  * [Content](Content)
+  * [Media](Media)
+
 - - -
   
 ## Design
@@ -106,7 +111,7 @@ play again button if the user want to go again.
   - I have checked and confirmed that the contrast on the site makes it easy to read and are accessible by using Lighthouse on Chrome
 ![Lighthouse check](assets/images/Lighthouse.png)
 
-  ## Validator Testing
+  ### Validator Testing
 
    **HTML**
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fherrlin85.github.io%2FQuizgame%2F) ![W3C image](assets/images/w3c.png)
@@ -119,7 +124,7 @@ play again button if the user want to go again.
 
 - - -
 
-## Deployment
+## Deployment & Local Development
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
@@ -132,7 +137,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
   ### How to Fork
 
-  To fork the Quizgame repository:
+To fork the Quizgame repository:
 
   - Log in (or sign up) to Github.
   - Go to the repository for this project, Herrlin85/Quizgame
@@ -141,7 +146,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
   ### How to Clone
 
-  To clone the Quizgame repository:
+To clone the Quizgame repository:
 
   - Log in (or sign up) to GitHub.
   - Go to the repository for this project, Herrlin85/Quizgame.
@@ -165,4 +170,5 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### Media
 
 * The image used for the background is taken from the free website https://www.freepik.com/
+* The badges under the mockup image came from [shields.io](https://shields.io) 
 
