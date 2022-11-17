@@ -23,7 +23,7 @@ Football Quiz Game is a interactive quiz about the users knowledge in football. 
   * [Solved Bugs](#Solved-Bugs)
   * [Manual Testing](#Manual-Testing)
   * [Accessibility](#Accessibility)
-  * [Validator Testing](Validator-Testing)
+  * [Validator Testing](#Validator-Testing)
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
