@@ -24,7 +24,11 @@ Football Quiz Game is a interactive quiz about the users knowledge in football. 
   * [Manual Testing](#Manual-Testing)
   * [Accessibility](#Accessibility)
   * [Validator Testing](Validator-Testing)
-
+* [Deployment & Local Development](#Deployment-&-Local-Development)
+  * [Deployment](#Deployment)
+  * [Local Development](#Local-Development)
+    * [How to Fork](#How-to-Fork)
+    * [How to Clone](#How-to-Clone
 - - -
   
 ## Design
@@ -38,7 +42,6 @@ The website uses a palette of colours that fit the eyes well. When the backgroun
 ### Images
 ![Background image](assets/images/Stadium.webp)
 
-The image used for the background is taken from the free website https://www.freepik.com/
 
 ### Features
 
@@ -81,7 +84,7 @@ play again button if the user want to go again.
   ### Categories
   - Add 4 different fotball categories e.g. Premier League, La liga etc
 
-
+- - -
 
 ## Testing
   
@@ -106,25 +109,60 @@ play again button if the user want to go again.
   ## Validator Testing
 
    **HTML**
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fherrlin85.github.io%2FQuizgame%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fherrlin85.github.io%2FQuizgame%2F) ![W3C image](assets/images/w3c.png)
   
    **CSS**
-  - No errors were returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fherrlin85.github.io%2FQuizgame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - No errors were returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fherrlin85.github.io%2FQuizgame%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![CSS image](assets/images/Jigsaw.png)
 
    **JavaScript** 
   - No errors or bugs were returned when passing through [JSHint](https://jshint.com/)]
 
+- - -
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
   The live link can be found here https://herrlin85.github.io/Quizgame/
 
+## Local Development
+
+  ### How to Fork
+
+  To fork the Quizgame repository:
+
+  - Log in (or sign up) to Github.
+  - Go to the repository for this project, Herrlin85/Quizgame
+
+  - Click the Fork button in the top right corner.
+
+  ### How to Clone
+
+  To clone the Quizgame repository:
+
+  - Log in (or sign up) to GitHub.
+  - Go to the repository for this project, Herrlin85/Quizgame.
+  - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+  - Type 'git clone' into the terminal and then paste the link you copied. Press enter.
+
+- - -
+
 ## Credits
 
-**Media**
+### Code Used
+
+* [The solution to shuffle my questions](https://medium.com/@apestruy/shuffling-an-array-in-javascript-8fcbc5ff12c7)
+* [showQestion function](https://stackoverflow.com/questions/62594459/how-to-check-the-correct-answer-javascript-4-buttons)
+
+### Content
+
+* The content (questions) was written by the owner of Quizgame
+
+### Media
+
+* The image used for the background is taken from the free website https://www.freepik.com/
 

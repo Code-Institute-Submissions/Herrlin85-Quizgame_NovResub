@@ -19,7 +19,7 @@ outro.classList.add('hide');
 
 // Eventlistener for start and score buttons
 startBtn.addEventListener('click', startQuiz);
-scoreBtn.addEventListener('click', showScore)
+scoreBtn.addEventListener('click', showScore);
 
 
 // Start quiz function. Hide elements for visual effect
@@ -28,7 +28,7 @@ function startQuiz() {
     startBtn.classList.add('hide');
     intro.classList.add('hide');
     questionBox.classList.remove('hide');
-    // Makes the questions random
+    // Makes the questions random, credits in Readme.md
     randomQuestion = myQuestions.sort(() => Math.random() - 0.5);
     showQuestion();
 }
@@ -126,7 +126,7 @@ let newQuestion = myQuestions.length - 1;
 
 
 
-// Code to show questions and answers
+// Code to show questions and answers, credits in Readme.md
 function showQuestion() {
     let q = myQuestions[questionIndex];
 
