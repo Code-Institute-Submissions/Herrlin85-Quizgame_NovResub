@@ -29,10 +29,10 @@ Football Quiz Game is a interactive quiz about the users knowledge in football. 
   * [Local Development](#Local-Development)
     * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
-* [Credits](Credits)
-  * [Code Used](Code-Used)
-  * [Content](Content)
-  * [Media](Media)
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
 
 - - -
   
