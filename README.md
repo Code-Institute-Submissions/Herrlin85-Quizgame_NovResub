@@ -126,6 +126,7 @@ play again button if the user want to go again.
 
 ## Deployment & Local Development
 
+### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Main Branch
@@ -133,9 +134,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
   The live link can be found here https://herrlin85.github.io/Quizgame/
 
-## Local Development
+### Local Development
 
-### How to Fork
+#### How to Fork
 
 To fork the Quizgame repository:
 
@@ -144,7 +145,7 @@ To fork the Quizgame repository:
 
   - Click the Fork button in the top right corner.
 
-### How to Clone
+#### How to Clone
 
 To clone the Quizgame repository:
 
